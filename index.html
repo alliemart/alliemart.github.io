@@ -1,74 +1,941 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Alexandra Martinez</title>
+	<meta name="description" content="My Personal Website">
+	<meta name="author" content="8Eyelashes">
+	
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Alliemart.GitHub.io : ">
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="icon" href="favicon.ico"> 
+	
+	<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/custom.css">
 
-    <title>Alliemart.GitHub.io</title>
-  </head>
+</head>
+<body>
 
-  <body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/alliemart">View on GitHub</a>
+	<!-- PRELOADER -->
+	<section id="custom-preloader">
+		<header id="custom-preloader-content">
+			<object type="image/svg+xml" data="images/preloader.svg" id="preloader"></object>
+			<span>Loading...</span>
+		</header>
+	</section> <!-- end PRELOADER -->
 
-          <h1 id="project_title">Alliemart.GitHub.io</h1>
-          <h2 id="project_tagline"></h2>
 
-        </header>
-    </div>
+	<!-- BACKGROUND -->
+	<section id="background">
+	</section><!-- end BACKGROUND -->
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+	<!-- RESPONSIVE MENU -->
+	<div id="responsive-menu">
+		<a href="#" id="responsive-menu-list">
+			<div class="responsive-menu-bar">
+				<span>Menu</span>
+				<i class="fa fa-list"></i>
+			</div>
+		</a>
+		<ul class="responsive-menu-disable">
+			<li>
+				<a href="#content-wrap" class="page-scroll-responsive">
+					<i class="fa fa-long-arrow-left"></i>
+					<h3>
+						back to home
+					</h3>
+				</a>
+			</li>
+			<li>
+				<a href="#about" class="page-scroll-responsive">
+					<i class="fa fa-user"></i>
+					<h3>
+						about
+					</h3>
+				</a>
+			</li>
+			<li>
+				<a href="#resume" class="page-scroll-responsive">
+					<i class="fa fa-globe"></i>
+					<h3>
+						resume
+					</h3>
+				</a>
+			</li>
+			<li>
+				<a href="#portfolio" class="page-scroll-responsive">
+					<i class="fa fa-book nav-left"></i>
+					<h3>
+						portfolio
+					</h3>
+				</a>
+			</li>
+			<li>
+				<a href="#blog" class="page-scroll-responsive">
+					<i class="fa fa-paperclip"></i>
+					<h3>
+						blog
+					</h3>
+				</a>
+			</li>
+			<li>
+				<a href="#contact" class="page-scroll-responsive">
+					<i class="fa fa-envelope"></i>
+					<h3>
+						contact
+					</h3>
+				</a>
+			</li>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+		</ul>
+	</div><!-- end RESPONSIVE MENU -->
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+	<!-- MAIN CONTENT -->
+	<section id="content-wrap">
+		<div class="container-liquid">
+			
+			<div class="row">
+				<header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-content">
+					<div class="profile-avatar overlay">
+						<img src="images/allie.jpg" alt="My Photo" height="182" width="182" >
+					</div>
+					<h2>
+						Alexandra Martinez
+					</h2>
+					<p>
+						Howdy! I'm a <span>Computer Science</span> major specializing in <span>graphics</span> who is looking for an internship. I love being ambitious and creative. Want to know more about me? Click on about!
+					</p>
+				</header>
+			</div>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 navigations">
+					<ul>
 
-<h3>
-<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+						<li id="about-link">			
+							<a href="#about" class="page-scroll">
+								<h3>
+									about
+								</h3>
+								<i class="fa fa-user nav-left"></i>
+							</a>
+						</li>	
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+						<li id="resume-link">
+							<a href="#resume" class="page-scroll page-right">
+								<h3>
+									resume
+								</h3>
+								<i class="fa fa-globe nav-right"></i>
+							</a>
+						</li>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+						<li id="portfolio-link">
+							<a href="#portfolio" class="page-scroll">
+								<h3>
+									portfolio
+								</h3>
+								<i class="fa fa-book nav-left"></i>
+							</a>
+						</li>
+					
+						<!--<li id="blog-link">
+							<a href="#blog" class="page-scroll page-right">
+								<h3>
+									blog
+								</h3>
+								<i class="fa fa-paperclip nav-right"></i>
+							</a>
+						</li>-->
+										
+						<li id="contact-link">
+							<a href="#contact" class="page-scroll page-right">
+								<h3>
+									contact
+								</h3>
+								<i class="fa fa-envelope nav-right"></i>
+							</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 social-icons">
+					<ul>
+						
+						<li>
+							<a href="https://www.facebook.com/allie.martinez.946">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</li>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+						<li>
+							<a href="https://twitter.com/alliemart7">
+								<i class="fa fa-twitter"></i>
+							</a>
+						</li>
+						
+						<li>
+							<a href="https://plus.google.com/u/0/112907327909680783070/about/p/pub">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</li>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="https://help.github.com/pages">https://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section><!-- end MAIN CONTENT -->
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
 
-    
 
-  </body>
+	<!-- ABOUT -->
+	<section id="about" class="cat-pages">
+		<div class="container-liquid">
+
+			<!-- TITLE -->
+			<div class="row">
+				<header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cat-pages-title">
+					<div class="title-seprator"></div>
+					<h2>
+						about
+					</h2>
+				</header>
+			</div><!-- end TITLE -->
+
+			<!-- DESCRIPTION -->
+			<div class="row">
+				<div class="col-lg-8 col-md-9 col-sm-9 col-xs-10 about-description">
+					<p>
+						My name is Alexandra, but my family and friends like to call me Allie. I'm a junior Computer Science major at Texas A&M University. I defintely have a passion for graphics and software. I tend to be more technical than artistic, but my Art minor has really been helping me get on my creative side. I also love editing videos. I currently work at 12th Man Productions as a student worker, so I basically get to make videos or graphics needed for any Texas A&M sporting events. That includes big screen shows and SEC Network broadcasts.	I may be employed as a student worker during the school year, however, I need an internship for the summer. Hopefully you can help me out!			</p>
+				</div>
+			</div><!-- end DESCRIPTION -->
+
+			<!-- ICONBOX -->
+			<div class="row">
+				<div class="col-lg-8 col-md-9 col-sm-9 col-xs-9 iconbox">
+					<ul>
+						<li>
+							<i class="fa fa-cubes"></i>
+							<h3>
+								design
+							</h3>
+							<p>
+								I'm a huge fan of minimalist art. I love simplicity, so I take that approach when I create graphics,software, or videos. However, I'm flexible when it comes to designing. If a user wants something a specific way, I am most definitely going to do all that I can to meet their demand.
+							</p>
+						</li>
+						<li class="iconbox-right">
+							<i class="fa fa-wrench"></i>
+							<h3>
+								app developement
+							</h3>
+							<p>
+								The cool thing about creating apps is that you have an opportunity to bring joy to people, which is why I try my best to make my apps enjoyable for all users.
+							</p>
+						</li>
+						<li>
+							<i class="fa fa-video-camera"></i>
+							<h3>
+								videos
+							</h3>
+							<p>
+								Videos have a special way of stirring emotions, meaning, they can have a huge impact on people. That's why I love creating and editing videos any chance I get. Every frame can make a difference.
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div><!-- end ICONBOX -->
+
+			<!-- BUTTONS -->
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="about-buttons">
+
+						<div class="btn">
+							<a href="Alexandra Martinez Resume.pdf">
+								<i class="fa fa-arrow-down"></i>
+								<span>
+								download resume
+								</span>
+							</a>
+						</div>
+
+						<div class="btn">
+							<a href="mailto:alliemart7@yahoo.com" class="page-scroll contact-button">
+								<i class="fa fa-envelope"></i>
+								<span>
+								contact me
+								</span>
+							</a>
+						</div>
+
+					</div>
+				</div>
+			</div><!-- end BUTTONS -->
+
+		</div>
+	</section><!-- end ABOUT -->
+
+
+
+	<!-- RESUME -->
+	<section id="resume" class="cat-pages">
+		<div class="container-liquid">
+
+			<!-- TITLE -->
+			<div class="row">
+				<header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cat-pages-title">
+					<div class="title-seprator"></div>
+					<h2>
+						resume
+					</h2>
+				</header>
+			</div><!-- end TITLE -->
+
+			<!-- TIMELINE -->
+			<div class="row">
+				<div class="col-lg-9 col-md-9 col-sm-9 col-xs-10 timeline">
+
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 timeline-left">
+						<i class="fa fa-graduation-cap"></i>
+						<h3>
+							education
+						</h3>
+						<ul>
+							<li style="margin-top: 80px;">
+								<span>
+									August 2013 - Present
+								</span>
+								<h4>
+									Art Minor
+								</h4>
+								<p>
+									This minor is fairly new for me, however, I've learned a lot within my intro classes. 
+								</p>
+							</li>
+							<li>
+								<span>
+									August 2012 - Present
+								</span>
+								<h4>
+									Bachelor of Computer Science
+								</h4>
+								<p>
+									I've taken multiple Computer Science classes, including Data Structures & Algorithms, Computer Organization, Computer Systems, Programming Languages, and many others.
+								</p>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 timeline-right">
+						<i class="fa fa-briefcase"></i>
+						<h3>
+							employment
+						</h3>
+						<ul>
+							<li>
+								<span>
+									May 2014 - August 2014
+								</span>
+								<h4>
+									Intern at Blinky Computer Repair
+								</h4>
+								<p>
+									Helped clients improve and maintain computer performance.
+								</p>
+							</li>
+							<li>
+								<span>
+									August 2013 - Present
+								</span>
+								<h4>
+									Student Worker At 12th Man Productions
+								</h4>
+								<p>
+									Produce graphics, videos, and features needed for Texas A&M Athletics. Worked live baseball and baskeball productions for Fox Sports Southwest and ESPN. Currently broadcasting live productions for the SEC Network.
+								</p>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div><!-- end TIMELINE -->
+
+			<!-- SKILLS -->
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 skills">
+
+						<div class="skills-title">
+							<h3>
+								Languages
+							</h3>
+							<i class="fa fa-code"></i>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 skill-item">
+							<input type="text" value="90" class="dial">
+							<h5>
+								C++
+							</h5>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 skill-item">
+							<input type="text" value="85" class="dial">
+							<h5>
+								C
+							</h5>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 skill-item">
+							<input type="text" value="80" class="dial">
+							<h5>
+								Java
+							</h5>
+						</div>
+						
+						<div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 skill-item">
+							<input type="text" value="60" class="dial">
+							<h5>
+								Python
+							</h5>
+						</div>
+						
+						
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 skills">
+						
+						<div class="skills-title">
+							<h3>
+								Graphics
+							</h3>
+							<i class="fa fa-image"></i>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 skill-item">
+							<input type="text" value="85" class="dial">
+							<h5>
+								Adobe Photoshop
+							</h5>
+						</div>
+						
+						<div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 skill-item">
+							<input type="text" value="85" class="dial">
+							<h5>
+								Xpression
+							</h5>
+						</div>
+						
+						<div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 skill-item">
+							<input type="text" value="70" class="dial">
+							<h5>
+								Adobe After Effects
+							</h5>
+						</div>
+						
+						<div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 skill-item">
+							<input type="text" value="60" class="dial">
+							<h5>
+								Autodesk Maya
+							</h5>
+						</div>
+						
+						
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 skills">
+						<div class="skills-title">
+							<h3>
+								Video/Audio
+							</h3>
+							<i class="fa fa-forward"></i>
+						</div>
+						
+			
+						<div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 skill-item">
+							<input type="text" value="75" class="dial">
+							<h5>
+								Adobe Premiere Pro
+							</h5>
+						</div>
+						
+								
+						<div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 skill-item">
+							<input type="text" value="70" class="dial">
+							<h5>
+								Final Cut Pro X
+							</h5>
+						</div>
+						
+						<div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 skill-item">
+							<input type="text" value="70" class="dial">
+							<h5>
+								AVID
+							</h5>
+						</div>
+						
+						<div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 skill-item">
+							<input type="text" value="60" class="dial">
+							<h5>
+								Adobe Soundbooth
+							</h5>
+						</div>
+						
+
+					</div>
+				</div>
+			</div><!-- end SKILLS -->
+
+		</div>
+	</section><!-- end RESUME -->
+
+
+
+	<!-- PORTFOLIO -->
+	<section id="portfolio" class="cat-pages">
+		<div class="container-liquid">
+
+			<!-- TITLE -->
+			<div class="row">
+				<header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cat-pages-title">
+					<div class="title-seprator"></div>
+					<h2>
+						portfolio
+					</h2>
+				</header>
+			</div><!-- end TITLE -->
+
+			<!-- FILTERS -->
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="portfolio-fliter">
+						<ul>
+							<li class="current"><a href="#">all</a></li>
+							<li><a href="#">graphics</a></li>
+							<li><a href="#">apps</a></li>
+							<li><a href="#">videography</a></li>
+						</ul>
+					</div>
+				</div>
+			</div><!-- end FILTERS -->
+
+
+			<!-- GALLERY -->
+			<div class="row">
+				<div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 portfolio-items">
+
+					<ul>
+						<li>
+							<a class="popup-image" href="images/VolleyballTourny.jpg" title="My Portfolio">
+								<img src="images/VolleyballTourny.jpg" alt="Portfolio Image" class="graphics" style="height:113px">
+								<div class="portfolio-description">
+									<h3>
+										Ags For Orphans
+									</h3>
+									<p>
+										
+									</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a class="popup-image" href="images/TrueFaith.jpg" title="My Portfolio">
+								<img src="images/TrueFaith.jpg" alt="Portfolio Image" class="graphics" style="height:113px">
+								<div class="portfolio-description">
+									<h3>
+										True Faith
+									</h3>
+									<p>
+										Used for Ags For Orphans social media 
+									</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a class="popup-youtube" href="https://www.youtube.com/watch?v=DOk3cO_JJL0" title="My Portfolio">
+								<img src="images/Coke.jpg" alt="Portfolio Image" class="graphics videography">
+								<div class="portfolio-description">
+									<h3>
+										Visualization Portfolio
+									</h3>
+									<p>
+										3D Animation using Maya
+									</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a class="popup-image" href="images/IndianaJones.jpg" title="My Portfolio">
+								<img src="images/IndianaJones.jpg" alt="Portfolio Image" class="graphics" style="height:100px">
+								<div class="portfolio-description">
+									<h3>
+										Indiana Jones
+									</h3>
+									<p>
+									</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a class="popup-youtube" href="https://www.youtube.com/watch?v=YlHj9BGFolY" title="My Portfolio">
+								<img src="images/Home.jpg" alt="Portfolio Image" class="videography" style="height:100px">
+								<div class="portfolio-description">
+									<h3>
+										Home
+									</h3>
+									<p>
+						
+									</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a class="popup-image" href="images/HarrisonFord.jpg" title="My Portfolio">
+								<img src="images/HarrisonFordfit.jpg" alt="Portfolio Image" class="graphics" style="height:100px">
+								<div class="portfolio-description">
+									<h3>
+										Harrison Ford Silhouette 
+									</h3>
+									<p>
+									</p>
+								</div>
+							</a>
+						</li>
+						
+						
+						<li>
+							<a class="popup-youtube" href="https://www.youtube.com/watch?v=rOrLCu_Q7sQ" title="My Portfolio">
+								<img src="images/TexasA&M.jpg" alt="Portfolio Image" class="graphics videography" style="height:100px">
+								<div class="portfolio-description">
+									<h3>
+										Texas A&M Logo
+									</h3>
+									<p>
+										3D animation using Maya
+									</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<!--<a class="popup-ajax" href="https://github.tamu.edu/bbombf/Project-3_Team-15.git" title="My Portfolio">-->
+								<a href="https://github.tamu.edu/alliemart7/MyLittleDino"><img src="images/mylittledino.jpg" alt="Portfolio Image" class="apps" style="height:100px">
+								<div class="portfolio-description">
+									<h3>
+										My Little Dino
+									</h3>
+									<p>
+										Group project I was a part of
+									</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a class="popup-image" href="images/Frank&Peety.jpg" title="My Portfolio">
+								<img src="images/Frank&Peetyfit.jpg" alt="Portfolio Image" class="graphics">
+								<div class="portfolio-description">
+									<h3>
+										Frank & Peety
+									</h3>
+									<p>
+									</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+
+				</div>
+			</div><!-- end GALLERY -->
+
+			<!-- QUOTES -->
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="col-lg-8 col-md-9 col-sm-8 col-xs-11 quotes" id="quote-slideshow">
+
+						<ul class="bjqs">
+
+							<li>
+								<p>
+									The world is but a canvas to our imagination.
+								</p>
+								<div class="quote-name">
+									<p>by</p>
+									<span>
+										Henry David Thoreau
+									</span>
+								</div>
+							</li>
+
+							<li>
+								<p>
+									 A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.
+								</p>
+								<div class="quote-name">
+									<p>by</p>
+									<span>
+										Antoine de Saint-Exupéry
+									</span>
+								</div>
+							</li>
+
+							<li>
+								<p>
+									 Never tell me the odds.
+								</p>
+								<div class="quote-name">
+									<p>by</p>
+									<span>
+										Han Solo, Star Wars Episode V:</span>
+									<span>
+										The Empire Strikes Back
+									</span>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div><!-- end QUOTES -->
+
+		</div>
+	</section><!-- end PORTFOLIO -->
+
+	
+
+	<!-- BLOG -->
+	 <section id="blog" class="cat-pages">
+		<div class="container-liquid">
+
+			<!-- TITLE -->
+			<div class="row">
+				<header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cat-pages-title">
+					<div class="title-seprator"></div>
+					<h2>
+						blog
+					</h2>
+				</header>
+			</div><!-- end TITLE -->
+
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="col-lg-9 col-md-10 col-sm-9 col-xs-10 blog">
+						<ul>
+
+							<li>
+								<div class="blog-image">
+									<img src="images/blog01.jpg" alt="Blog Image">
+								</div>
+								<a class="popup-ajax" href="blog-single-ajax.html">
+									<h2>
+										custom blog title
+									</h2>
+								</a>
+								<p>
+									This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec in erat justo. Nullam ac urna eu felis dapibus. velit ollicit atips quis bibendum version of nullam erat auctornisi.
+								</p>
+								<span>
+									<i class="fa fa-calendar"></i> december 16, 2014 &nbsp;&nbsp;/
+									<i class="fa fa-comments-o"></i> 8 comments &nbsp;&nbsp;/&nbsp;&nbsp;
+									<a class="popup-ajax" href="blog-single-ajax.html">
+										read more
+									</a>
+									<i class="fa fa-angle-double-right"></i>
+								</span>
+							</li>
+
+							<li>
+								<div class="blog-image">
+									<img src="images/blog02.jpg" alt="Blog Image">
+								</div>
+								<a class="popup-ajax" href="blog-single-ajax.html">
+									<h2>
+										custom blog title
+									</h2>
+								</a>
+								<p>
+									This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec in erat justo. Nullam ac urna eu felis dapibus. velit ollicit atips quis bibendum version of nullam erat auctornisi.
+								</p>
+								<span>
+									<i class="fa fa-calendar"></i> december 16, 2014 &nbsp;&nbsp;/
+									<i class="fa fa-comments-o"></i> 8 comments &nbsp;&nbsp;/&nbsp;&nbsp;
+									<a class="popup-ajax" href="blog-single-ajax.html">
+										read more
+									</a>
+									<i class="fa fa-angle-double-right"></i>
+								</span>
+							</li>
+
+							<li>
+								<div class="blog-image">
+									<img src="images/blog03.jpg" alt="Blog Image">
+								</div>
+								<a class="popup-ajax" href="blog-single-ajax.html">
+									<h2>
+										custom blog title
+									</h2>
+								</a>
+								<p>
+									This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec in erat justo. Nullam ac urna eu felis dapibus. velit ollicit atips quis bibendum version of nullam erat auctornisi.
+								</p>
+								<span>
+									<i class="fa fa-calendar"></i> december 16, 2014 &nbsp;&nbsp;/
+									<i class="fa fa-comments-o"></i> 8 comments &nbsp;&nbsp;/&nbsp;&nbsp;
+									<a class="popup-ajax" href="blog-single-ajax.html">
+										read more
+									</a>
+									<i class="fa fa-angle-double-right"></i>
+								</span>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- end BLOG --> 
+
+
+
+	
+	<!-- CONTACT -->
+	<section id="contact" class="cat-pages">
+		<div class="container-liquid">
+
+			<!-- TITLE -->
+			<div class="row">
+				<header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cat-pages-title">
+					<div class="title-seprator"></div>
+					<h2>
+						contact
+					</h2>
+				</header>
+			</div><!-- end TITLE -->
+
+			<!-- GOOGLE MAP -->
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="col-lg-9 col-md-10 col-sm-10 col-xs-11 googlemap">
+						<div id="map-canvas"></div>
+					</div>
+				</div>
+			</div><!-- end GOOGLE MAP -->
+
+			<!-- CONTACT INFO & FORM -->
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="col-lg-9 col-md-10 col-sm-10 col-xs-11 contact-section">
+
+						<!-- CONTACT INFO -->
+						<div class="col-lg-5 col-md-12 col-sm-5 col-xs-12 contact-info">
+							<p>
+								<font size="6">Alexandra Martinez</font>
+							</p>
+							<ul>
+								<li>
+									<i class="fa fa-home"></i>
+									<p>3803 Wellborn Rd. 1831B Bryan, TX 77840</p>
+								</li>
+								<li>
+									<i class="fa fa-phone"></i>
+									<p>979-415-5048</p>
+								</li>
+								<li>
+									<i class="fa fa-twitter"></i>
+									<p>alliemart7</p>
+								</li>
+								<li>
+									<i class="fa fa-envelope"></i>
+									<p>alliemart7@yahoo.com</p>
+								</li>
+							</ul>
+						</div><!-- end CONTACT INFO -->
+
+
+						<div class="col-lg-7 col-md-12 col-sm-7 col-xs-12 contact-form">
+							<form method="post" id="contactform" name="contactform">
+								<input type="text" name="name" id="name" placeholder="name">
+								<input type="email" name="email" id="email" placeholder="email">
+								<input type="text" name="subject" id="subject" placeholder="subject">
+								<textarea name="message" id="message" placeholder="message"></textarea>
+								<input type="submit" name="submit" id="submit" value="submit">
+							</form>
+
+							<h4 id="cf-success">
+								<i class="fa fa-check"></i> Your message was sent succssfully!
+							</h4>
+
+							<h4 id="cf-error">
+								<i class="fa fa-times"></i> Something went wrong, try refreshing and submitting the form again.
+							</h4>
+						</div>
+
+					</div>
+				</div>
+			</div><!-- end CONTACT INFO & FORM -->
+
+		</div>
+	</section><!-- end CONTACT -->
+	
+
+
+	<!-- SCRIPTS -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.backstretch.min.js" ></script>
+	<script type="text/javascript" src="js/jquery.nicescroll.min.js" ></script>
+	<script type="text/javascript" src="js/jquery.knob.min.js" ></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js" ></script>
+	<script type="text/javascript" src="js/bjqs-1.3.min.js" ></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+	<script type="text/javascript" src="js/googlemaps.js" ></script>
+	<script type="text/javascript" src="js/jquery.validate.min.js" ></script>
+	<script type="text/javascript" src="js/jquery.form.min.js" ></script>
+	<script type="text/javascript" src="js/custom.js" ></script>
+	
+
+	<script>
+
+		// PRELOADER SCRIPT
+		$(window).load(function() {
+			var prld = $('#custom-preloader-content').addClass("animated fadeOut");
+			setTimeout(function () {
+			    prld.css("display", "none").css("z-index", "-9999");
+			    $('#custom-preloader').css({
+			    	"display": "none",
+			    	"z-index": "-9999"
+			    });
+			    $('#content-wrap').css("z-index", "4");
+			    $('.main-content').css("z-index", "4");
+			}, 500);
+			$('body').delay(800).css({'overflow':'visible'});
+		})
+
+		
+		// BACKGROUND IMAGE/SLIDESHOW SCRIPT
+		$('#background').backstretch("images/background.jpg");
+
+	</script>
+	<!-- end SCRIPTS -->
+
+
+</body>
 </html>
